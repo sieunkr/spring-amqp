@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CafeService {
 
-    void accept(){
+    void accept(CustomMessage c){
         System.out.println("accept");
         try {
             Thread.sleep(3000);
